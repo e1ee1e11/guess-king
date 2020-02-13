@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'myFont';
+  src: url('assets/MYoungHKS-Xbold.otf') format("opentype");
+}
+
+body {
+  background: top left no-repeat url("assets/blue-flying-letters.jpg");
+  background-size: cover;
+  font-family: 'myFont';
+}
+
+#sketch-holder {
+  position: absolute;
+  margin-left: 180px;
+  margin-top: 50px;
+  height: 700;
+  width: 1080;
+}
+
+#reset {
+  font-size: 26px;
+}
+
+#start-game {
+  font-size: 26px;
+}
+
+#submit {
+  font-size: 26px;
+  padding: 9px 60px;
+}
+
+#buttons-wrapper {
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  margin-left: 480px;
+  margin-top: 415px;
+  transition-duration: 0.5s;
+  color: white;
+}
+
+#buttons-wrapper:hover {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 4px;
+}
+
+#reset-wrapper {
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  margin-left: 455px;
+  margin-top: 415px;
+}
+
+#submit-wrapper {
+  align-items: center;
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  justify-content: center;
+  margin-left: 800px;
+  margin-top: 625px;
+  transition-duration: 0.5s;
+  color: white;
+}
+
+#submit-wrappper:hover {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 4px;
+}
+
+
+#giveup-wrapper {
+  align-items: center;
+  position: absolute;
+  height: 60px;
+  width: 250px;
+  justify-content: center;
+  margin-left: 900px;
+  margin-top: 20px;
+  transition-duration: 0.5s;
+  color: white;
+}
+
+#giveup-wrappper:hover {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 4px;
+}
+
+#level {
+  align-items: center;
+  position: absolute;
+  justify-content: center;
+  margin-left: 455px;
+  margin-top: 300px;
+}
+
