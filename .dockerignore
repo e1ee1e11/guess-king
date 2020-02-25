@@ -1,0 +1,8 @@
+.git
+.gitignore
+Dockerfile
+RADME.md
+LICENSE
+static/css/assets/websocket_flow.*
+static/css/assets/demo.gif
+static/css/assets/flow.png
