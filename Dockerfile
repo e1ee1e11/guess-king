@@ -4,7 +4,7 @@ COPY . /app
 
 RUN \
   apk add --no-cache --virtual .build-deps gcc musl-dev \
-  &&pip install --no-cache-dir -r /app/requirements.txt \
+  && pip install --no-cache-dir -r /app/requirements.txt \
   && apk del .build-deps \
   && rm -f /app/requirements.txt
 
