@@ -1,6 +1,7 @@
 .git
 .gitignore
 Dockerfile
+Makefile
 RADME.md
 LICENSE
 static/css/assets/websocket_flow.*
